@@ -1,0 +1,121 @@
+/* Admin_Service.css */
+
+/* Page styling */
+.page-wrapper {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.page-title {
+  color: #333;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.service-exist{
+
+  font-weight: bold;
+}
+/* Service form container styling */
+.service-form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-service-primary {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  padding: 10px 30px; 
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+  display: block; 
+  width: 100%; 
+}
+
+.btn-service-primary:hover {
+  background-color: #218838;
+}
+
+/* Service card styling */
+/* .service-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-card .blockquote {
+  color: #666;
+}
+
+
+.dropdown-toggle {
+  width: 100%; 
+  padding: 10px 0; 
+}
+
+
+.dropdown-menu {
+  width: 100%; 
+}
+
+/* .admin-service-alert{
+  position: fixed;
+  top: 66px;
+  right: 118px;
+  margin-bottom: 2px;
+}  */
+
+
+.service-card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 12px; /* Smooth rounded corners */
+}
+
+.service-card:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Modern shadow effect */
+}
+
+.service-card .card-header {
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: none;
+  border-top-left-radius: 12px; /* Match card corner radius */
+  border-top-right-radius: 12px;
+}
+
+.service-card .card-body {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.service-card .card-footer {
+  border-top: none;
+  background-color: #f8f9fa; /* Light gray background */
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.service-card .dropdown-menu {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.service-card .dropdown-item {
+  font-size: 0.9rem;
+}
+
+.service-card .dropdown-item:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Highlight effect for hover */
+}
